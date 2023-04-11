@@ -1,6 +1,3 @@
-16 lines (13 sloc)  286 Bytes
- 
-
 #include <stdio.h>
 
 int main() {

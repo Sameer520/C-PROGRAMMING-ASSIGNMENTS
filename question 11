@@ -2,11 +2,11 @@
 
 int main() {
     int arr[5] = {12, 56, 34, 78, 100};
-    int largest = arr[0]; // initialize largest as the first element of the array
+    int largest = arr[0];
     
-    for (int i = 1; i < 5; i++) { // iterate through the rest of the array
-        if (arr[i] > largest) { // compare each element with the current largest element
-            largest = arr[i]; // update largest if a bigger element is found
+    for (int i = 1; i < 5; i++) { 
+        if (arr[i] > largest) { 
+            largest = arr[i];
         }
     }
     

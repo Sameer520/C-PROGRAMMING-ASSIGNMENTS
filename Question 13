@@ -10,8 +10,7 @@ int main() {
     int secondSmallest = arr[0];
     int sum = 0;
     float avg = 0;
-
-    // sorting the array in descending order
+r
     for (i = 0; i < n; i++) {
         for (j = i + 1; j < n; j++) {
             if (arr[i] < arr[j]) {
@@ -22,7 +21,6 @@ int main() {
         }
     }
 
-    // finding the second largest and smallest elements
     for (i = 0; i < n; i++) {
         if (arr[i] > largest) {
             secondLargest = largest;
@@ -37,12 +35,10 @@ int main() {
             secondSmallest = arr[i];
         }
     }
-
-    // finding the average of the second largest and smallest elements
+    
     sum = secondLargest + secondSmallest;
     avg = (float)sum / 2;
 
-    // checking if the average is present in the array
     for (i = 0; i < n; i++) {
         if (arr[i] == avg) {
             printf("The average %.2f is present in the array.\n", avg);

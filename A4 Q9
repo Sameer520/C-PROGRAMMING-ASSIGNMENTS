@@ -17,4 +17,5 @@ int main() {
   printf("Student's name: %s", student.name);
   printf("Student's GPA: %.2f\n", student.gpa);
 
-  retur
+  return 0;
+  }
